@@ -1,0 +1,33 @@
+
+.todo-app {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .todo-list {
+    margin-top: 20px;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+  }
+  
+  .todo-item button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .todo-item button:hover {
+    background-color: #d32f2f;
+  }
+  
